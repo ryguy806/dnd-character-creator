@@ -9,7 +9,7 @@ export default function NavigationBar() {
         <div style={{position: 'fixed', height: '10vh', width: '100%', top: 0, display: 'flex', flexDirection: 'row', backgroundColor: 'blue', color: 'white'}}>
             <Link style={homeStyle} href='/'>Home</Link>
             <div style={spaceStyle}></div>
-            <Link href='/characters' style={notHomeStyle}>All Characters</Link>
+            <Link href='/characters/all' style={notHomeStyle}>All Characters</Link>
             <Link href='/creator' style={notHomeStyle}>Character Creator</Link>
         </div>
     )
